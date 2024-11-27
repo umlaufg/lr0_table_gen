@@ -28,11 +28,8 @@ class LR0_Parser:
 
         self.debug_counter = 0
 
-    ## DEBUG - Prettyprint the state's info ##
+    ## Prettyprint the state's info ##
     def print_state(self, state, n=None):
-        #print(f"State:   {state}")
-        #print("    vvvv")
-        #print()
 
         if n == None:
             n = len(self.states)
@@ -177,18 +174,13 @@ class LR0_Parser:
         # Get gotos of state I0 and their states:
         self.get_gotos(state)
 
-        # DEBUG
-        #print('\n' + '#' * 80 + '\n')
+        # Print each of the states:
         for s in range(len(self.states)):
             self.print_state(self.states[s], n=s)
 
-        #for t in self.goto_table:
-            #print(t)
-
     def build_table(self) -> None:
 
-        # TODO: This is disgustingly inefficient;
-        # make a separate goto and action table
+        # TODO: Make a separate goto and action table
         nonterminals = []
         for goto in self.goto_table:
             if self.grammar.get(goto[1]) == None and goto[1] != "all" and \
