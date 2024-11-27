@@ -1,6 +1,6 @@
 # LR(0) Parsing Table Generator
 
-This Python script can take a simple grammar, augment its topmost production, and create a DFA as well as a parsing table for it.
+This Python script can take a simple grammar, augment its topmost production, and create a DFA as well as a parsing table for it. Displays the parsing table using tabulate.
 
 <div align="center">
 
