@@ -9,8 +9,8 @@ This Python script can take a simple grammar, augment its topmost production, an
 | <!-- -->                                                                                               |
 |:------------------------------------------------------------------------------------------------------:|
 | ![image](https://github.com/umlaufg/lr0_table_gen/blob/main/docs/images/lr0_screenshot_1.PNG?raw=true) |
-| *The example grammar provided in the script and its formal representation*                             |
+| *The example grammar provided in the script; Its formal representation*                                |
 | ![image](https://github.com/umlaufg/lr0_table_gen/blob/main/docs/images/lr0_screenshot_2.PNG?raw=true) |
-| *Left: The automata for this grammar; Right: The parsing table generated from those states*            |
+| *The automata for this grammar; The parsing table generated from those states*                         |
 
 </div>
