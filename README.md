@@ -2,7 +2,7 @@
 
 An important step in the front-end process of a compiler is the parsing stage. After turning a statement into a set of tokens, the parser will compare the tokens to a pre-defined programming language grammar to ensure it can compile without error.
 
-This Python script can take a simple grammar, augment its topmost production, and create an LR(0) DFA and parsing table for it. It displays the parsing table using tabulate.
+This Python script can take a simple grammar, augment its topmost production, and create an LR(0) DFA and parsing table. It displays the parsing table using tabulate.
 
 <div align="center">
 
